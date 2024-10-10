@@ -3,9 +3,9 @@ provider "aws" {
 }
 
 resource "aws_instance" "foo" {
-  ami           = "ami-036c2987dfef867fb" # us-west-2
+  ami           = "ami-0583d8c7a9c35822c" # us-east1
   instance_type = "t2.micro"
   tags = {
-      Name = "TF-Instance"
+      Name = "sample-Instance"
   }
 }
